@@ -1,35 +1,25 @@
 {
-    "$schema": "https://cdn.jsdelivr.net/gh/LiteLoaderQQNT/LiteLoaderQQNT@latest/manifest-zh.schema.json",
-    "manifest_version": 4,
-    "type": "extension",
-    "name": "插件模板",
-    "slug": "plugin_template",
-    "description": "LiteLoaderQQNT 的插件模板",
-    "version": "0.1.0",
-    "icon": "./icon.png",
-    "thumb": "./icon.svg",
-    "authors": [
-        {
-            "name": "LiteLoaderQQNT",
-            "link": "https://github.com/LiteLoaderQQNT"
-        }
-    ],
-    "platform": [
-        "win32",
-        "linux",
-        "darwin"
-    ],
-    "injects": {
-        "renderer": "./src/renderer.js",
-        "main": "./src/main.js",
-        "preload": "./src/preload.js"
-    },
-    "repository": {
-        "repo": "LiteLoaderQQNT/Plugin-Template",
-        "branch": "main",
-        "release": {
-            "tag": "0.1.0",
-            "file": "Plugin-Template.zip"
-        }
-    }
+	"manifest_version": 4,
+	"type": "extension",
+	"name": "LLQQNT 非官方 API",
+	"slug": "uno_api",
+	"description": "LiteLoaderQQNT 非官方 API 实现",
+	"version": "uno.2-pre3",
+	"authors": [{
+		"name": "晚梦",
+		"link": "https://about.latedream.cn"
+	}],
+	"platform": ["win32", "linux", "darwin"],
+	"injects": {
+		"main": "./src/main.js",
+		"preload": "./src/preload.js"
+	},
+	"repository": {
+		"repo": "LateDreamXD/LLQQNT-uno_api",
+		"branch": "main",
+		"release": {
+			"tag": "uno.2-pre3",
+			"file": "LLQQNT-uno_api.zip"
+		}
+	}
 }
