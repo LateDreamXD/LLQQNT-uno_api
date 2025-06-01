@@ -1,4 +1,3 @@
-# Plugin-Template
+# LLQQNT-unofficial API
 
-LiteLoaderQQNT的插件模板  
-LiteLoaderQQNT本体：[LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoaderQQNT)
+[LiteLoaderQQNT 非官方版](https://github.com/LateDreamXD/LLQQNT-unofficial) API 实现
