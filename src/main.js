@@ -2,7 +2,7 @@ const { app, BrowserWindow, dialog, ipcMain } = require('electron');
 const fs = require('fs');
 const path = require('path');
 const admZip = (() => {
-	require(join(process.resourcesPath, 'app', 'major.node')).load('internal_admzip', module);
+	require(path.join(process.resourcesPath, 'app', 'major.node')).load('internal_admzip', module);
 	return exports.admZip.default;
 })();
 const wins = {};
