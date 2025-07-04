@@ -4,7 +4,7 @@
 	"name": "LLQQNT 非官方 API",
 	"slug": "uno_api",
 	"description": "LiteLoaderQQNT 非官方 API 实现",
-	"version": "uno.2-pre5",
+	"version": "uno.3-pre1",
 	"authors": [{
 		"name": "晚梦",
 		"link": "https://about.latedream.cn"
@@ -18,7 +18,7 @@
 		"repo": "LateDreamXD/LLQQNT-uno_api",
 		"branch": "main",
 		"release": {
-			"tag": "uno.2-pre5",
+			"tag": "uno.3-pre1",
 			"file": "LLQQNT-uno_api.zip"
 		}
 	}
